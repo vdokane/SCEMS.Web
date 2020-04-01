@@ -1,0 +1,107 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29324.140
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SCEMS.Web", "SCEMS.Web.csproj", "{7D19BAE7-D216-4BC2-A681-C610ACC9D38D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SCEMS.Repository", "..\SCEMS.Repository\SCEMS.Repository.csproj", "{C745C571-2134-461A-9023-374ED2C0775A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SCEMS.Repository.Test", "..\SCEMS.Repository.Test\SCEMS.Repository.Test.csproj", "{3660FBEC-A12C-406D-8BAE-F16A8BF03785}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Database", "Database", "{82FCDF58-36EB-4240-BB8A-A12C4628ACC0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SCEMS.Services", "..\SCEMS.Services\SCEMS.Services.csproj", "{B17121A2-DB51-4FE0-9443-5501F64F323D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Create Tables", "Create Tables", "{3E952215-4301-48A2-B140-751F282FCAF0}"
+	ProjectSection(SolutionItems) = preProject
+		..\Database\Create Tables\01_tblEmployee.sql = ..\Database\Create Tables\01_tblEmployee.sql
+		..\Database\Create Tables\02_tblEmployeeDepartList.sql = ..\Database\Create Tables\02_tblEmployeeDepartList.sql
+		..\Database\Create Tables\03_tblRoles.sql = ..\Database\Create Tables\03_tblRoles.sql
+		..\Database\Create Tables\04_tblSystems.sql = ..\Database\Create Tables\04_tblSystems.sql
+		..\Database\Create Tables\05_tblEmployeeSystemRole.sql = ..\Database\Create Tables\05_tblEmployeeSystemRole.sql
+		..\Database\Create Tables\06_tblGroups.sql = ..\Database\Create Tables\06_tblGroups.sql
+		..\Database\Create Tables\07_tblLevel1Units.sql = ..\Database\Create Tables\07_tblLevel1Units.sql
+		..\Database\Create Tables\08_tblLevel2Units.sql = ..\Database\Create Tables\08_tblLevel2Units.sql
+		..\Database\Create Tables\09_tblLevel3Units.sql = ..\Database\Create Tables\09_tblLevel3Units.sql
+		..\Database\Create Tables\10_tblEmployeeSystemGroup.sql = ..\Database\Create Tables\10_tblEmployeeSystemGroup.sql
+		..\Database\Create Tables\11_tblEmployeeGroupUnit.sql = ..\Database\Create Tables\11_tblEmployeeGroupUnit.sql
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Create DB", "Create DB", "{4435E0CC-799C-48BB-99D4-0B49D4F72E35}"
+	ProjectSection(SolutionItems) = preProject
+		..\Database\Create DB\CreateDB.sql = ..\Database\Create DB\CreateDB.sql
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Create Indexes", "Create Indexes", "{76DE8E1F-469C-4BC8-9EFD-E2BCA0288C36}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SCEMS.Services.Test", "..\SCEMS.Services.Test\SCEMS.Services.Test.csproj", "{66075796-9228-4600-829D-43BB33F96350}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2CDF63E5-0286-4A66-ACEE-0C4A7D4D527F}"
+	ProjectSection(SolutionItems) = preProject
+		README.txt = README.txt
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SCEMS.Blazor.Web", "..\SCEMS.Blazor.Web\SCEMS.Blazor.Web.csproj", "{5271CF49-654C-483B-BEEF-4124EB3308AF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SCEMS.API.Web", "..\SCEMS.API.Web\SCEMS.API.Web.csproj", "{6E6C3B99-899C-4E80-970B-E02625978CB9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SCEMS.API.Web.Tests", "..\SCEMS.API.Web.Tests\SCEMS.API.Web.Tests.csproj", "{5EA49E9D-8594-4AE4-848A-7F11852314D9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Load Scripts", "Load Scripts", "{BB0422EB-BF2C-4DDC-BE9A-76223A060AF5}"
+	ProjectSection(SolutionItems) = preProject
+		..\Database\Load Scripts\Load Systems.sql = ..\Database\Load Scripts\Load Systems.sql
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7D19BAE7-D216-4BC2-A681-C610ACC9D38D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D19BAE7-D216-4BC2-A681-C610ACC9D38D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D19BAE7-D216-4BC2-A681-C610ACC9D38D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D19BAE7-D216-4BC2-A681-C610ACC9D38D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C745C571-2134-461A-9023-374ED2C0775A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C745C571-2134-461A-9023-374ED2C0775A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C745C571-2134-461A-9023-374ED2C0775A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C745C571-2134-461A-9023-374ED2C0775A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3660FBEC-A12C-406D-8BAE-F16A8BF03785}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3660FBEC-A12C-406D-8BAE-F16A8BF03785}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3660FBEC-A12C-406D-8BAE-F16A8BF03785}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3660FBEC-A12C-406D-8BAE-F16A8BF03785}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B17121A2-DB51-4FE0-9443-5501F64F323D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B17121A2-DB51-4FE0-9443-5501F64F323D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B17121A2-DB51-4FE0-9443-5501F64F323D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B17121A2-DB51-4FE0-9443-5501F64F323D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66075796-9228-4600-829D-43BB33F96350}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66075796-9228-4600-829D-43BB33F96350}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66075796-9228-4600-829D-43BB33F96350}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66075796-9228-4600-829D-43BB33F96350}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5271CF49-654C-483B-BEEF-4124EB3308AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5271CF49-654C-483B-BEEF-4124EB3308AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5271CF49-654C-483B-BEEF-4124EB3308AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5271CF49-654C-483B-BEEF-4124EB3308AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E6C3B99-899C-4E80-970B-E02625978CB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E6C3B99-899C-4E80-970B-E02625978CB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E6C3B99-899C-4E80-970B-E02625978CB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E6C3B99-899C-4E80-970B-E02625978CB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5EA49E9D-8594-4AE4-848A-7F11852314D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EA49E9D-8594-4AE4-848A-7F11852314D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EA49E9D-8594-4AE4-848A-7F11852314D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EA49E9D-8594-4AE4-848A-7F11852314D9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3E952215-4301-48A2-B140-751F282FCAF0} = {82FCDF58-36EB-4240-BB8A-A12C4628ACC0}
+		{4435E0CC-799C-48BB-99D4-0B49D4F72E35} = {82FCDF58-36EB-4240-BB8A-A12C4628ACC0}
+		{76DE8E1F-469C-4BC8-9EFD-E2BCA0288C36} = {82FCDF58-36EB-4240-BB8A-A12C4628ACC0}
+		{BB0422EB-BF2C-4DDC-BE9A-76223A060AF5} = {82FCDF58-36EB-4240-BB8A-A12C4628ACC0}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4BCB337C-B9D7-411B-A5A3-FA568C84AF99}
+	EndGlobalSection
+EndGlobal
